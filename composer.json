@@ -16,6 +16,10 @@
       "homepage": "https://github.com/retlehs"
     }
   ],
+  "post-install-cmd": [
+     "php artisan clear-compiled",
+     "chmod -R 777 public/"
+ ],
   "keywords": [
     "bedrock", "composer", "roots", "wordpress", "wp", "wp-config"
   ],
